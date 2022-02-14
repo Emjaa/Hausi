@@ -2,6 +2,6 @@ Robert Stinkt
 
 <div *ngFor="let ap of appointments">
 {{ap.title}}
-{{ap.fromDate}}
+{{ap.fromDate | date:'shortDate'}}
 {{ap.toDate}}
 </div>

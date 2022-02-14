@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'Hausi.App';
 
   appointments = [
-    {title : "test_ap", fromDate : new Date().setDate(6), toDate: new Date().setDate(7)},
+    {title : "test_ap", fromDate : new Date().setDate(7), toDate: new Date()},
     {title : "popo dr besuchen"},
     {title : "viel zu früh junge"}
   ];
