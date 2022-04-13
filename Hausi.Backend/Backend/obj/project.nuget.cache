@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sr9ihqCh4Bnk0N6Tq3HbH3wGsb6mUK5Z2uhIzCD3TixGLdVJqKM7ZWCEQ8skhjxgQRrhTqmcaWkgWAAPE8LG6A==",
+  "dgSpecHash": "MOsIBduQbS99un8D/HTHmYyMdcYBlsBjb4G4e6O71Ny8XcpoYessso76EtozdK07ckTG6tJSEPH+Su/+R+LtuQ==",
   "success": true,
-  "projectFilePath": "C:\\Code\\Git\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
