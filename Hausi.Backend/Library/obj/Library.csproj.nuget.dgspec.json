@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\Library.csproj": {}
+    "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj": {
+    "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\obj\\",
+        "projectPath": "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\ole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ole\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,36 +61,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\ole\\.dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\Library.csproj": {
+    "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\Library.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\obj\\",
+        "projectPath": "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\ole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ole\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj": {
-                "projectPath": "C:\\Users\\User\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj"
+              "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj": {
+                "projectPath": "C:\\Users\\ole\\RiderProjects\\Hausi\\Hausi.Backend\\Backend\\Backend.csproj"
               }
             }
           }
@@ -124,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\ole\\.dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
