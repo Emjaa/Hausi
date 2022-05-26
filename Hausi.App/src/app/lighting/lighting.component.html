@@ -1,0 +1,12 @@
+<br>
+<h1>Lamps: {{lamps.length}} On: {{getOn()}} Off: {{getOff()}}</h1>
+<button mat-button (click)="accordion.openAll()">Expand All</button>
+<button mat-button (click)="accordion.closeAll()">Collapse All</button>
+<button mat-raised-button (click)="createLamp()">Add Lamp</button>
+<button mat-raised-button (click)="deletaAll()">Remove All</button>
+<button mat-raised-button (click)="turnAllOn()">All On</button>
+<button mat-raised-button (click)="turnAllOff()">All Off</button>
+<mat-accordion class="example-headers-align" multi>
+  <app-lamp *ngFor="let lamp of lamps" [lamp]="lamp"><div></div></app-lamp>
+</mat-accordion>
+{{getLamps()}}

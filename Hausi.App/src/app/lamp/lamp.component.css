@@ -1,0 +1,13 @@
+.example-form mat-slide-toggle {
+  margin: 20px ;
+  display: block;
+}
+
+.test mat-expansion-panel{
+  margin: 50%;
+}
+
+.card{
+  max-width: 400px;
+  margin-bottom: 8px;
+}
