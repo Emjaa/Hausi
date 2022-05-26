@@ -1,7 +1,52 @@
-Robert Stinkt
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Hausi</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>login</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>settings</mat-icon>
+  </button>
+  <app-clock></app-clock>
+</mat-toolbar>
 
-<div *ngFor="let ap of appointments">
-{{ap.title}}
-{{ap.fromDate | date:'shortDate'}}
-{{ap.toDate}}
-</div>
+
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <br>
+    <br>
+    <button mat-raised-button routerLink="/lighting" routerLinkActive="active">Lighting</button>
+    <br>
+    <br>
+    <button mat-raised-button routerLink="/clock" routerLinkActive="Time">Clock</button>
+    <br>
+    <br>
+    <button mat-raised-button routerLink="/automation" routerLinkActive="active">Automation</button>
+    <br>
+    <br>
+    <button mat-raised-button routerLink="/settings" routerLinkActive="active">Settings</button>
+  </mat-drawer>
+  <mat-card>
+
+  <router-outlet></router-outlet>
+  <!--
+    <app-temperature></app-temperature>
+    <mat-slider
+      thumbLabel
+      [displayWith]="formatLabel"
+      tickInterval="1000"
+      step="1000"
+      min="0"
+      max="100000"
+      aria-label="units"></mat-slider>
+
+  -->
+  </mat-card>
+</mat-drawer-container>
+
+
+
+

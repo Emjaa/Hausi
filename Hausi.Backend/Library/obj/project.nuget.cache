@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Vdg2H6hAt8BjwWb65x7YUa+3gWebL6fc4MUFFhQ/QogERBZ2TiU3a2YQtyen+d0Ri33XqzAU41zelyBwftFzbg==",
+  "dgSpecHash": "ymxzp9QP+j3g7T9Dq2VszYC/NmkhUHQ7+Vs2rh4s0OrWu/ONUx60MAE25rGOZ8zZ59tGEAGEcbOIEmgGVY88Ig==",
   "success": true,
-  "projectFilePath": "C:\\Code\\Git\\Hausi\\Hausi.Backend\\Library\\Library.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Code\\Git\\Hausi.Backend\\Library\\Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ole\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ole\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ole\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ole\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ole\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ole\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }

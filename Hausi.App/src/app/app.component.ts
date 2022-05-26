@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { Calendar } from "./Calendar/Calendar";
+import {Component, OnInit} from '@angular/core';
+import {map, share, Subscription, timer} from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -7,14 +7,14 @@ import { Calendar } from "./Calendar/Calendar";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hausi.App';
 
-  appointments = [
-    {title : "test_ap", fromDate : new Date().setDate(7), toDate: new Date()},
-    {title : "popo dr besuchen"},
-    {title : "viel zu früh junge"}
-  ];
+  title = 'HausiApp';
+  showFiller = false;
+
+  formatLabel(value: number) {
+    if (value >= 1000) {
+      return Math.round(value / 1000) + 'k';
+    }
+    return value;
+  }
 }
-
-
-

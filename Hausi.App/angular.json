@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Hausi.App": {
+    "HausiApp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/hausi.app",
+            "outputPath": "dist/hausi-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -68,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Hausi.App:build:production"
+              "browserTarget": "HausiApp:build:production"
             },
             "development": {
-              "browserTarget": "Hausi.App:build:development"
+              "browserTarget": "HausiApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Hausi.App:build"
+            "browserTarget": "HausiApp:build"
           }
         },
         "test": {
@@ -94,13 +95,45 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.css"
             ],
             "scripts": []
           }
         }
       }
+    },
+    "Repository": {
+      "projectType": "library",
+      "root": "projects/repository",
+      "sourceRoot": "projects/repository/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/repository/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/repository/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/repository/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/repository/src/test.ts",
+            "tsConfig": "projects/repository/tsconfig.spec.json",
+            "karmaConfig": "projects/repository/karma.conf.js"
+          }
+        }
+      }
     }
   },
-  "defaultProject": "Hausi.App"
+  "defaultProject": "HausiApp"
 }
