@@ -17,22 +17,22 @@ export class LightingComponent implements OnInit {
   @ViewChild(MatAccordion) accordion!: MatAccordion;
   lamps: Lamp[] = [];
   lampIndex = 0;
-  options?: {
-    headers?: HttpHeaders | {[header: string]: string | string[]},
-    observe?: 'body' | 'events' | 'response',
-    params?: HttpParams|{[param: string]: string | number | boolean | ReadonlyArray<string | number | boolean>},
-    reportProgress?: boolean,
-    responseType?: 'arraybuffer'|'blob'|'json'|'text',
-    withCredentials?: boolean,
-  }
+
+  items = [];
+  url = 'http://echo.jsontest.com/key/testkes/value/testvalue'
   constructor(private http: HttpClient) {
-
+    http.get(this.url).toPromise().then(data => {
+      console.log(data);
+      console.log('test');
+      for (let key in data)
+        if (data.hasOwnProperty(key))
+          if (data) {
+            // @ts-ignore
+            this.items.push(data[key])
+          }
+    })
   }
 
-  configUrl = 'https://localhost:7083/WeatherForecast';
-  getLamps(){
-    return this.http.get<Lamp>(this.configUrl);
-  }
 
   ngOnInit(): void {
     // for (let i = 0; i < 10; i++){
