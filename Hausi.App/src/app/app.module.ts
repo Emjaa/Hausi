@@ -16,7 +16,7 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 import {FormsModule} from "@angular/forms";
 import {LampComponent} from './shared/components/lamp/lamp.component';
-import {TemperatureComponent} from './temperature/temperature.component';
+import {TemperatureComponent} from './modules/indoor-climate/components/temperature/temperature.component';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatExpansionModule} from "@angular/material/expansion";
 import {ClockComponent} from './shared/components/clock/clock.component';
