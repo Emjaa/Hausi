@@ -26,6 +26,9 @@ import {RelaysComponent} from './modules/relays/relays.component';
 import {AutomationComponent} from './modules/automation/automation.component';
 import {HttpClientModule} from "@angular/common/http";
 import { IndoorClimateComponent } from './modules/indoor-climate/indoor-climate.component';
+import { SoundComponent } from './modules/sound/sound.component';
+import { GardeningComponent } from './modules/gardening/gardening.component';
+import { DashboardComponent } from './modules/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { IndoorClimateComponent } from './modules/indoor-climate/indoor-climate.
     SettingsComponent,
     RelaysComponent,
     AutomationComponent,
-    IndoorClimateComponent
+    IndoorClimateComponent,
+    SoundComponent,
+    GardeningComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
