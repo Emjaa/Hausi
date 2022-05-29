@@ -9,22 +9,23 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import {MatSliderModule} from "@angular/material/slider";
 import {MatButtonModule} from "@angular/material/button";
-import {LightingComponent} from './lighting/lighting.component';
+import {LightingComponent} from './modules/lighting/lighting.component';
 import {MatCardModule} from "@angular/material/card";
 import {MatRadioModule} from "@angular/material/radio";
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 import {FormsModule} from "@angular/forms";
-import {LampComponent} from './lamp/lamp.component';
+import {LampComponent} from './shared/components/lamp/lamp.component';
 import {TemperatureComponent} from './temperature/temperature.component';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatExpansionModule} from "@angular/material/expansion";
-import {ClockComponent} from './clock/clock.component';
-import {LedStripComponent} from './led-strip/led-strip.component';
-import {SettingsComponent} from './settings/settings.component';
-import {RelaysComponent} from './relays/relays.component';
-import {AutomationComponent} from './automation/automation.component';
+import {ClockComponent} from './shared/components/clock/clock.component';
+import {LedStripComponent} from './modules/lighting/components/led-strip/led-strip.component';
+import {SettingsComponent} from './modules/settings/settings.component';
+import {RelaysComponent} from './modules/relays/relays.component';
+import {AutomationComponent} from './modules/automation/automation.component';
 import {HttpClientModule} from "@angular/common/http";
+import { IndoorClimateComponent } from './modules/indoor-climate/indoor-climate.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import {HttpClientModule} from "@angular/common/http";
     LedStripComponent,
     SettingsComponent,
     RelaysComponent,
-    AutomationComponent
+    AutomationComponent,
+    IndoorClimateComponent
   ],
   imports: [
     BrowserModule,

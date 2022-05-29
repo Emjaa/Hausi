@@ -2,6 +2,9 @@ import {Room} from "./room";
 
 export class Lamp {
   private readonly id: number;
+  public ipAddress!: string;
+  public turnOnUrl!: string;
+  public turnOffUrl!: string;
   public state: boolean;
   private color!: number;
   public name!: string;

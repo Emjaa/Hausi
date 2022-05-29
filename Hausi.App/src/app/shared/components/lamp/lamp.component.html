@@ -1,0 +1,27 @@
+<mat-expansion-panel hideToggle class="test">
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      {{lamp.name}}
+    </mat-panel-title>
+    <mat-panel-description class="toggle">
+      <mat-slide-toggle
+        class="example-margin"
+        [color]="color"
+        [checked]="isChecked"
+        [disabled]="disabled"
+        [(ngModel)]="lamp.state">
+        {{lamp.GetState() ? 'on' : 'off'}}
+      </mat-slide-toggle>
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+  <p>Room: {{lamp.room.name}} </p>
+  <p>ip address: {{lamp.ipAddress}}</p>
+  <p>turn on url: {{lamp.turnOnUrl}} </p>
+  <p>turn off url: {{lamp.turnOffUrl}} </p>
+</mat-expansion-panel>
+
+
+
+
+
+

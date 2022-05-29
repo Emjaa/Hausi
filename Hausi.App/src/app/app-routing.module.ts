@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LightingComponent } from './lighting/lighting.component';
-import {  SettingsComponent } from './settings/settings.component';
-import {  ClockComponent } from './clock/clock.component';
-import {  AutomationComponent } from './automation/automation.component';
+import { LightingComponent } from './modules/lighting/lighting.component';
+import {  SettingsComponent } from './modules/settings/settings.component';
+import {  ClockComponent } from './shared/components/clock/clock.component';
+import {  AutomationComponent } from './modules/automation/automation.component';
 
 
 

@@ -3,11 +3,16 @@
   display: block;
 }
 
-.test mat-expansion-panel{
-  margin: 50%;
+.test {
+  margin-right: 10%;
+  text-align: right;
 }
 
 .card{
   max-width: 400px;
   margin-bottom: 8px;
+}
+
+.toggle{
+  align-content: end;
 }

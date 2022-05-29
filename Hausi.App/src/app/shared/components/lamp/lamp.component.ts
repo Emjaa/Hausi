@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Lamp} from "../Models/lamp";
+import {Lamp} from "../../../modules/lighting/models/lamp";
 import {ThemePalette} from "@angular/material/core";
 import {colors} from "ng-packagr/lib/utils/color";
 
@@ -11,6 +11,7 @@ import {colors} from "ng-packagr/lib/utils/color";
 export class LampComponent implements OnInit{
 
   @Input() lamp!: Lamp;
+
   color: ThemePalette = 'accent';
   isChecked = false;
   disabled = false;
