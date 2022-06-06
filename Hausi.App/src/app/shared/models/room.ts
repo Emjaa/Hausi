@@ -1,4 +1,4 @@
-import {Lamp} from "./lamp";
+import {Lamp} from "../../modules/lighting/models/lamp";
 
 export class Room {
   private readonly id: number;

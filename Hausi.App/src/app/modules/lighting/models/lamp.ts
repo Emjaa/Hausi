@@ -1,4 +1,4 @@
-import {Room} from "./room";
+import {Room} from "../../../shared/models/room";
 
 export class Lamp {
   private readonly id: number;

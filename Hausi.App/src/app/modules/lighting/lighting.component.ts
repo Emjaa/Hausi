@@ -5,7 +5,7 @@ import {Injectable} from "@angular/core";
 import {HttpClient, HttpHeaders, HttpParams} from "@angular/common/http";
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
-import {Room} from "./models/room";
+import {Room} from "../../shared/models/room";
 
 @Component({
   selector: 'app-lighting',
